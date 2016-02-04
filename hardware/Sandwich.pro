@@ -1,4 +1,4 @@
-update=2016 February 01, Monday 21:50:32
+update=2016 February 04, Thursday 22:58:37
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=Zilog
+LibName31=libraries/parallax_propeller
