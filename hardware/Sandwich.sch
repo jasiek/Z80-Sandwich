@@ -46,10 +46,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L P8X32A-D40 ??1
+L P8X32A-D40 U1
 U 2 1 56B3D7DA
 P 9050 4650
-F 0 "??1" H 9100 5703 60  0000 C CNN
+F 0 "U1" H 9100 5703 60  0000 C CNN
 F 1 "P8X32A-D40" H 9100 5603 60  0000 C CNN
 F 2 "Housings_DIP:DIP-40_W15.24mm_LongPads" H 9050 4650 60  0001 C CNN
 F 3 "" H 9050 4650 60  0000 C CNN
@@ -73,7 +73,7 @@ U 1 1 56B3DA31
 P 10000 5350
 F 0 "R7" V 10050 5200 50  0000 C CNN
 F 1 "240" V 10000 5350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 9930 5350 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 9930 5350 50  0001 C CNN
 F 3 "" H 10000 5350 50  0000 C CNN
 	1    10000 5350
 	0    1    1    0   
@@ -84,7 +84,7 @@ U 1 1 56B3DA8C
 P 10250 5250
 F 0 "R11" V 10300 5400 50  0000 C CNN
 F 1 "240" V 10250 5250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 10180 5250 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 10180 5250 50  0001 C CNN
 F 3 "" H 10250 5250 50  0000 C CNN
 	1    10250 5250
 	0    1    1    0   
@@ -99,7 +99,7 @@ U 1 1 56B3DB9A
 P 10000 5150
 F 0 "R6" V 10050 5000 50  0000 C CNN
 F 1 "470" V 10000 5150 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 9930 5150 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 9930 5150 50  0001 C CNN
 F 3 "" H 10000 5150 50  0000 C CNN
 	1    10000 5150
 	0    1    1    0   
@@ -110,7 +110,7 @@ U 1 1 56B3DBE5
 P 10250 5050
 F 0 "R10" V 10300 5200 50  0000 C CNN
 F 1 "240" V 10250 5050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 10180 5050 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 10180 5050 50  0001 C CNN
 F 3 "" H 10250 5050 50  0000 C CNN
 	1    10250 5050
 	0    1    1    0   
@@ -125,7 +125,7 @@ U 1 1 56B3DEC9
 P 10000 4950
 F 0 "R5" V 10050 4800 50  0000 C CNN
 F 1 "470" V 10000 4950 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 9930 4950 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 9930 4950 50  0001 C CNN
 F 3 "" H 10000 4950 50  0000 C CNN
 	1    10000 4950
 	0    1    1    0   
@@ -136,7 +136,7 @@ U 1 1 56B3DF20
 P 10250 4850
 F 0 "R9" V 10300 5000 50  0000 C CNN
 F 1 "240" V 10250 4850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 10180 4850 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 10180 4850 50  0001 C CNN
 F 3 "" H 10250 4850 50  0000 C CNN
 	1    10250 4850
 	0    1    1    0   
@@ -151,7 +151,7 @@ U 1 1 56B3E13C
 P 10000 4750
 F 0 "R4" V 10050 4600 50  0000 C CNN
 F 1 "470" V 10000 4750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 9930 4750 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 9930 4750 50  0001 C CNN
 F 3 "" H 10000 4750 50  0000 C CNN
 	1    10000 4750
 	0    1    1    0   
@@ -162,7 +162,7 @@ U 1 1 56B3E18E
 P 10250 4650
 F 0 "R8" V 10300 4800 50  0000 C CNN
 F 1 "240" V 10250 4650 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 10180 4650 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 10180 4650 50  0001 C CNN
 F 3 "" H 10250 4650 50  0000 C CNN
 	1    10250 4650
 	0    1    1    0   
@@ -176,27 +176,27 @@ Wire Wire Line
 Wire Wire Line
 	10900 5350 10150 5350
 Wire Wire Line
-	10150 5150 10600 5150
+	10600 5150 10150 5150
 Wire Wire Line
-	10600 5150 10600 4250
+	10600 4250 10600 5150
 Wire Wire Line
 	10600 4250 10900 4250
 Wire Wire Line
 	10400 5050 10600 5050
 Connection ~ 10600 5050
 Wire Wire Line
-	10150 4950 10550 4950
+	10550 4950 10150 4950
 Wire Wire Line
-	10550 4950 10550 4150
+	10550 4150 10550 4950
 Wire Wire Line
 	10550 4150 10900 4150
 Wire Wire Line
 	10400 4850 10550 4850
 Connection ~ 10550 4850
 Wire Wire Line
-	10150 4750 10500 4750
+	10500 4750 10150 4750
 Wire Wire Line
-	10500 4750 10500 4050
+	10500 4050 10500 4750
 Wire Wire Line
 	10500 4050 10900 4050
 Wire Wire Line
@@ -208,7 +208,7 @@ U 1 1 56B3E76F
 P 10000 5550
 F 0 "Y1" H 10000 5650 50  0000 C CNN
 F 1 "5MHz" H 10000 5400 50  0000 C CNN
-F 2 "Crystals:Crystal_HC49-U_Vertical" H 10000 5550 50  0001 C CNN
+F 2 "Crystals:Crystal_HC49-U_Horizontal_Typ1" H 10000 5550 50  0001 C CNN
 F 3 "" H 10000 5550 50  0000 C CNN
 	1    10000 5550
 	1    0    0    -1  
@@ -222,10 +222,10 @@ Wire Wire Line
 Wire Wire Line
 	10150 5550 10100 5550
 $Comp
-L 24C512 U1
+L 24C512 U2
 U 1 1 56B3EA78
 P 9050 2600
-F 0 "U1" H 9050 3266 50  0000 C CNN
+F 0 "U2" H 9050 3266 50  0000 C CNN
 F 1 "24C512" H 9050 3166 50  0000 C CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 9050 2600 50  0001 C CNN
 F 3 "" H 9050 2600 50  0000 C CNN
@@ -233,10 +233,10 @@ F 3 "" H 9050 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L P8X32A-D40 ??1
+L P8X32A-D40 U1
 U 1 1 56B5DEF4
 P 7900 2600
-F 0 "??1" H 7850 3008 60  0000 C CNN
+F 0 "U1" H 7850 3008 60  0000 C CNN
 F 1 "P8X32A-D40" H 7850 2900 60  0000 C CNN
 F 2 "Housings_DIP:DIP-40_W15.24mm_LongPads" H 7900 2600 60  0001 C CNN
 F 3 "" H 7900 2600 60  0000 C CNN
@@ -244,7 +244,7 @@ F 3 "" H 7900 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8350 2400 8200 2400
+	8200 2400 8350 2400
 Wire Wire Line
 	8200 2500 8350 2500
 Wire Wire Line
@@ -266,9 +266,9 @@ Connection ~ 7400 2400
 Text GLabel 10600 6000 0    60   Input ~ 0
 GND
 Wire Wire Line
-	10600 6000 10800 6000
+	10800 6000 10600 6000
 Wire Wire Line
-	10800 6000 10800 4450
+	10800 4450 10800 6000
 Wire Wire Line
 	10800 4450 10900 4450
 Wire Wire Line
@@ -297,7 +297,7 @@ U 1 1 56B5E9EC
 P 9550 1950
 F 0 "R3" V 9355 1950 50  0000 C CNN
 F 1 "10k" V 9455 1950 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 9480 1950 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 9480 1950 50  0001 C CNN
 F 3 "" H 9550 1950 50  0000 C CNN
 	1    9550 1950
 	0    1    1    0   
@@ -346,7 +346,7 @@ U 1 1 56B5F44A
 P 7850 3100
 F 0 "R2" V 7655 3100 50  0000 C CNN
 F 1 "1.5k" V 7755 3100 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7780 3100 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 7780 3100 50  0001 C CNN
 F 3 "" H 7850 3100 50  0000 C CNN
 	1    7850 3100
 	0    1    1    0   
@@ -356,8 +356,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 3100 7700 3100
 Connection ~ 8300 3100
-Wire Wire Line
-	9050 2100 9050 1950
 Wire Wire Line
 	9750 3100 9750 2500
 Connection ~ 9050 3100
@@ -377,7 +375,7 @@ U 1 1 56B7C3FF
 P 7650 6300
 F 0 "R1" V 7455 6300 50  0000 C CNN
 F 1 "10k" V 7555 6300 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7580 6300 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 7580 6300 50  0001 C CNN
 F 3 "" H 7650 6300 50  0000 C CNN
 	1    7650 6300
 	0    1    1    0   
@@ -527,9 +525,11 @@ U 1 1 56BE85CA
 P 7950 5950
 F 0 "Q1" H 8144 6050 50  0000 L CNN
 F 1 "PZT2222A" H 8144 5950 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223" H 8144 5850 50  0000 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-223" H 8144 5850 50  0001 L CIN
 F 3 "" H 7950 5950 50  0000 L CNN
 	1    7950 5950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9050 2100 9050 1950
 $EndSCHEMATC
