@@ -328,9 +328,9 @@ Wire Wire Line
 	5650 2850 5650 2250
 Connection ~ 4950 2850
 Text GLabel 6800 3600 2    60   Input ~ 0
-PROP_RX
-Text GLabel 6300 3700 2    60   Input ~ 0
 PROP_TX
+Text GLabel 6300 3700 2    60   Input ~ 0
+PROP_RX
 Wire Wire Line
 	4200 5300 4350 5300
 $Comp
