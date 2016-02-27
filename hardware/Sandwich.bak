@@ -244,7 +244,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 2850 5650 2850
 Wire Wire Line
-	4200 2150 4200 5300
+	4200 2000 4200 5300
 Connection ~ 4200 2250
 Connection ~ 4200 2150
 Wire Wire Line
@@ -328,9 +328,9 @@ Wire Wire Line
 	5650 2850 5650 2250
 Connection ~ 4950 2850
 Text GLabel 6800 3600 2    60   Input ~ 0
-PROP_RX
-Text GLabel 6300 3700 2    60   Input ~ 0
 PROP_TX
+Text GLabel 6300 3700 2    60   Input ~ 0
+PROP_RX
 Wire Wire Line
 	4200 5300 4350 5300
 $Comp
@@ -543,4 +543,18 @@ Wire Wire Line
 	6200 3100 6200 4000
 Wire Wire Line
 	6200 4000 5650 4000
+$Comp
+L C_Small C?
+U 1 1 56D1DFFB
+P 4200 1900
+F 0 "C?" H 4292 1946 50  0000 L CNN
+F 1 "100nF" H 4292 1854 50  0000 L CNN
+F 2 "" H 4200 1900 50  0000 C CNN
+F 3 "" H 4200 1900 50  0000 C CNN
+	1    4200 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1800 4200 1700
+Connection ~ 4200 1700
 $EndSCHEMATC
